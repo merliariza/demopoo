@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo-main\\demopoo.csproj",
+      "projectUniqueName": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo.csproj",
       "projectName": "demopoo",
-      "projectPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo-main\\demopoo.csproj",
+      "projectPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo.csproj",
       "packagesPath": "C:\\Users\\merli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo-main\\obj\\",
+      "outputPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\merli\\AppData\\Roaming\\NuGet\\NuGet.Config"
