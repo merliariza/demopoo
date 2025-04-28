@@ -145,6 +145,9 @@ private static void RegistrarJugador(List<Club> clubes)
         Console.WriteLine("Ingrese el número del jugador:");
         int numero = int.Parse(Console.ReadLine());
 
+        Console.WriteLine("Ingrese el precio del jugador:");
+        double precio = double.Parse(Console.ReadLine());
+
         Console.WriteLine("\nClubes disponibles:");
         for (int i = 0; i < clubes.Count; i++)
         {
@@ -156,14 +159,12 @@ private static void RegistrarJugador(List<Club> clubes)
             Console.WriteLine("\nSeleccione el número del club al que pertenece el jugador:");
             if (!int.TryParse(Console.ReadLine(), out opcionClub) || opcionClub < 1 || opcionClub > clubes.Count)
             {
-                Console.WriteLine("Opción no válida. Intente nuevamente.");
+                Console.WriteLine("Opción no válida. Ingrese una opción válida.");
             }
         } while (opcionClub < 1 || opcionClub > clubes.Count);
 
-        // Crear el jugador
-        Player nuevoJugador = new Player(id, nombre, apellido, telefono, correo, direccion, posicion, numero);
+        Player nuevoJugador = new Player(id, nombre, apellido, telefono, correo, direccion, posicion, numero, precio);
 
-        // Agregar al club seleccionado
         clubes[opcionClub-1].Jugadores.Add(nuevoJugador);
 
         Console.WriteLine("Jugador registrado exitosamente.");
@@ -187,7 +188,7 @@ private static void ListarJugadores(List<Club> clubes)
 
             foreach (Player jugador in club.Jugadores)
             {
-                Console.WriteLine($"  ID: {jugador.Id} - Nombre: {jugador.Nombre} {jugador.Apellido} - Posición: {jugador.Position} - Número: {jugador.Number}");
+                Console.WriteLine($"  ID: {jugador.Id} - Nombre: {jugador.Nombre} {jugador.Apellido} - Posición: {jugador.Position} - Número: {jugador.Number} - Precio: {jugador.Price}");
             }
 
             hayJugadores = true;
