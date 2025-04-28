@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\merli\\.nuget\\packages\\": {}
+    "/home/camper/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo.csproj",
+      "projectUniqueName": "/home/camper/Descargas/c#/demopoo/demopoo.csproj",
       "projectName": "demopoo",
-      "projectPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\demopoo.csproj",
-      "packagesPath": "C:\\Users\\merli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\merli\\Downloads\\demopoo-main\\obj\\",
+      "projectPath": "/home/camper/Descargas/c#/demopoo/demopoo.csproj",
+      "packagesPath": "/home/camper/.nuget/packages/",
+      "outputPath": "/home/camper/Descargas/c#/demopoo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\merli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/camper/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
